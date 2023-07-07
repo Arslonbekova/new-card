@@ -6,7 +6,7 @@
 }
 .container{
     margin: 0 auto;
-    max-width: 1188px;
+    max-width: 1220px;
 }
 nav{
     padding: 41px;
@@ -103,21 +103,27 @@ background: #010604;
 }
 .a13{
     background: url("img/Rectangle\ 88.png");
-    padding: 44px 0  0 30px;
 }
 .a12{
     background: url("img/Rectangle\ 85.png");
 }
 .a8{
-text-decoration: none;
+width: 252px;
+height: 65px;
+flex-shrink: 0;
+background: #010604;
+margin:44px 26px 0 27px;
 padding: 18px 60px;
-color: #FFF;
-font-size: 20px;
+}
+.a8 a{
+    color: #FFF;
+font-size: 22px;
 font-weight: 400;
-background-color: #000;
+text-decoration:none ;
 }
 .icons{
-transform:translate(202px,454px);
+margin-left:217px;
+margin-top: 454px;
 width: 87px;
 height: 136px;
 flex-shrink: 0;
