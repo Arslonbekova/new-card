@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1188px;
+}
+nav{
+    padding: 41px;
+    display: flex;
+    gap: 400px;
+}
+.nav-left>h1{
+    width: 130px;
+    margin-left: 13px;
+position: relative;
+font-family: 'Montserrat';
+color: #fff;
+display: flex;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.nav-left h1>p{
+    color: #130707;
+}
+.crl{
+position: absolute;
+width: 29px;
+height: 29px;
+background-color: #000;
+border-radius: 50px;
+}
+ul{
+display: flex;
+list-style: none;
+gap: 26px;
+}
+ul li>a{
+    text-decoration: none;
+    color: #111;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.145px;
+    }
+ul li:nth-child(6){
+    width: 120px;
+}
+.img-box{
+    display: flex;
+}
+.img{
+    width: 304px;
+    height: 590px;
+    background-color: aqua;
+}
+.card{
+width: 304.5px;
+height: 295px;
+background: #F8B20E;
+padding: 63px 43px;
+}
+.card>a{
+    height: 48px;
+    background: #FFF;
+    padding: 12px 67px;
+    color: #000;
+font-size: 16px;
+font-weight: 400;
+text-decoration: none;
+}
+.card>p{
+color: #000;
+font-size: 23px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-bottom: 46px;
+}
+.a3{
+    width: 305px;
+    height: 331px;
+    background:url("img/Rectangle\ 87.png");
+}
+.a4{
+width: 305px;
+height: 259px;
+flex-shrink: 0;
+background: #010604;
+}
+.a2{
+    background: #EEEAEA;
+}
+.a4>p{
+    color: #FFF;
+    margin-bottom: 33px;
+}
+.a13{
+    background: url("img/Rectangle\ 88.png");
+    padding: 44px 0  0 30px;
+}
+.a12{
+    background: url("img/Rectangle\ 85.png");
+}
+.a8{
+text-decoration: none;
+padding: 18px 60px;
+color: #FFF;
+font-size: 20px;
+font-weight: 400;
+background-color: #000;
+}
+.icons{
+transform:translate(202px,454px);
+width: 87px;
+height: 136px;
+flex-shrink: 0;
+background: #FFF;
+display:flex ;
+flex-direction: column;
+gap: 5px;
+align-items: center;
+justify-content: center;
+}
+.icons>i{
+    font-size: 20px;
+}
